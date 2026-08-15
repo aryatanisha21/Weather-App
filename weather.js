@@ -1,0 +1,47 @@
+const weatherData = {
+  raipur: {
+    temp: 24,
+    humidity: 80,
+    wind: 18,
+    feelslike: 25,
+    condition: "Rain",
+    image: "heavy.png",
+    forecast: [
+      { day: "Mon", icon: "🌧️", high: 28, low: 24 },
+      { day: "Tue", icon: "🌧️", high: 27, low: 23 },
+      { day: "Wed", icon: "☁️", high: 29, low: 24 },
+      { day: "Thu", icon: "🌧️", high: 28, low: 23 },
+      { day: "Fri", icon: "☁️", high: 29, low: 24 },
+    ],
+  },
+  mandsaur: {
+    temp: 28,
+    humidity: 65,
+    wind: 14,
+    feelslike: 29,
+    condition: "cloudy",
+    image: "cloud.png",
+    forecast: [
+      { day: "Mon", icon: "☁️", high: 28, low: 20 },
+      { day: "Tue", icon: "☁️", high: 27, low: 19 },
+      { day: "Wed", icon: "☁️", high: 29, low: 21 },
+      { day: "Thu", icon: "☁️", high: 28, low: 20 },
+      { day: "Fri", icon: "☁️", high: 30, low: 22 },
+    ],
+  },
+  indore: {
+    temp: 32,
+    humidity: 45,
+    wind: 10,
+    feelslike: 34,
+    condition: "sunny",
+    image: "cloudy.png",
+    forecast: [
+      { day: "Mon", icon: "☀️", high: 32, low: 22 },
+      { day: "Tue", icon: "☀️", high: 33, low: 23 },
+      { day: "Wed", icon: "☁️", high: 31, low: 22 },
+      { day: "Thu", icon: "🌤️", high: 30, low: 21 },
+      { day: "Fri", icon: "☀️", high: 34, low: 23 },
+    ],
+  },
+};

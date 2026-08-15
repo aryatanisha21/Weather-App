@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,0..200"
+    />
+  </head>
+  <body>
+    <div class="weather-app">
+      <div class="heading">
+        <h1 class="text">🌥️Weather App</h1>
+        <span class="material-symbols-outlined"> menu </span>
+      </div>
+      <div class="search_bar">
+        <input class="search" type="text" placeholder="Enter city name..." />
+
+        <span class="material-symbols-outlined search-icon"> search </span>
+      </div>
+      <div>
+        <h1 class="info">Mandsaur, India</h1>
+        <p class="date">Monday , 17 May 2026</p>
+      </div>
+      <div class="weather-icon">
+        <img class="weather_img" src="cloud.png" alt="weather" />
+      </div>
+
+      <div>
+        <h1 class="info" style="font-size: 60px">28<sup>° C</sup></h1>
+      </div>
+      <div>
+        <h4 class="condition">cloudy</h4>
+      </div>
+      <div class="weather_info">
+        <div class="box">
+          <span class="material-symbols-outlined icon">water_drop</span>
+          <div>
+            <p>Humidity</p>
+            <h3>65%</h3>
+          </div>
+        </div>
+        <div class="box">
+          <span class="material-symbols-outlined icon">air</span>
+          <div>
+            <p>Wind</p>
+            <h3>12 km/h</h3>
+          </div>
+        </div>
+        <div class="box">
+          <span class="material-symbols-outlined icon">device_thermostat</span>
+          <div>
+            <p>Feels Like</p>
+            <h3>29°C</h3>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p class="day">5 day Forecast</p>
+      </div>
+      <div class="forecast">
+        <div class="forecast-card" id="manage">
+          <h3>Mon</h3>
+          <span>☀️</span>
+          <p>28°C</p>
+          <small>16°C</small>
+        </div>
+
+        <div class="forecast-card">
+          <h3>Tue</h3>
+          <span>🌧️</span>
+          <p>25°C</p>
+          <small>15°C</small>
+        </div>
+
+        <div class="forecast-card">
+          <h3>Wed</h3>
+          <span>☁️</span>
+          <p>27°C</p>
+          <small>17°C</small>
+        </div>
+
+        <div class="forecast-card">
+          <h3>Thu</h3>
+          <span>🌤️</span>
+          <p>29°C</p>
+          <small>18°C</small>
+        </div>
+
+        <div class="forecast-card">
+          <h3>Fri</h3>
+          <span>⛈️</span>
+          <p>24°C</p>
+          <small>14°C</small>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
